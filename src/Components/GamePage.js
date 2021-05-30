@@ -18,7 +18,6 @@ const NumberSelect = () => {
     const [isWon, setisWon] = useState(0);
     let {id} = useParams();
     const [number, setNumber] = useState(arr.current);
-    console.log(arr.current);
 
     const clickedNumber = (value) => {
         if(isWon === 0)
@@ -44,21 +43,16 @@ const NumberSelect = () => {
                     })}
                 </div>
                 <div className="rules">
-                <p className = "gameStyle">🔘 Game Started 🔘</p>
-                <p className = "subHeadingStyle">
-                    <p>  🟤 Your Choosen Number: {id} </p>
-                    <p>  🟤 You Have {3 - count.current} Left For Guesssing The Number </p>
-                    <p> 🟤 Want To Start New Game </p>
+                <div className = "gameStyle">🔘 Game Started 🔘</div>
+                <div className = "subHeadingStyle">
+                    <div>  🟤 Your Choosen Number: {id} </div>
+                    <div>  🟤 You Have {3 - count.current} Left For Guesssing The Number </div>
+                    <div> 🟤 Want To Start New Game </div>
                     <Link to={{ pathname: `/`}}> 
                         New Game 
                     </Link>
-                    <p>{isWon === 1 ? <div> 🟤 Congratulations!! You Won 🙂 </div>: isWon === 2 ? <div> 🟤 You Lose 😞. Please Try Again </div> : ""}</p>
-                    <br></br>
-                    <div>
-                        
-                    </div>
-                </p>
-
+                    <div>{isWon === 1 ? <div> 🟤 Congratulations!! You Won 🙂 </div>: isWon === 2 ? <div> 🟤 You Lose 😞. Please Try Again </div> : ""}</div>
+                </div>
                 </div>
             </div>
         </>

@@ -1,13 +1,13 @@
 import React from 'react';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
-import Starting from './Components/Starting';
+import Home from './Components/Home';
 
 const App = () => {
   return (
     <>
       <Header title = "GAME: Guess The Tile"/>
-      <Starting/>
+      <Home/>
       <Footer/>
     </>
   )
