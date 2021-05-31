@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Guess-The-Tile/static/css/main.99a9402e.chunk.css",
+    "main.js": "/Guess-The-Tile/static/js/main.0c94f9f7.chunk.js",
+    "main.js.map": "/Guess-The-Tile/static/js/main.0c94f9f7.chunk.js.map",
+    "runtime-main.js": "/Guess-The-Tile/static/js/runtime-main.65eaa191.js",
+    "runtime-main.js.map": "/Guess-The-Tile/static/js/runtime-main.65eaa191.js.map",
+    "static/js/2.5291b842.chunk.js": "/Guess-The-Tile/static/js/2.5291b842.chunk.js",
+    "static/js/2.5291b842.chunk.js.map": "/Guess-The-Tile/static/js/2.5291b842.chunk.js.map",
+    "index.html": "/Guess-The-Tile/index.html",
+    "static/css/main.99a9402e.chunk.css.map": "/Guess-The-Tile/static/css/main.99a9402e.chunk.css.map",
+    "static/js/2.5291b842.chunk.js.LICENSE.txt": "/Guess-The-Tile/static/js/2.5291b842.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65eaa191.js",
+    "static/js/2.5291b842.chunk.js",
+    "static/css/main.99a9402e.chunk.css",
+    "static/js/main.0c94f9f7.chunk.js"
+  ]
+}
