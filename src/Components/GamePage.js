@@ -52,7 +52,7 @@ const NumberSelect = () => {
                     <Link to={{ pathname: `/`}}> 
                         <div className="newGameStyle">New Game </div> 
                     </Link>
-                    <div>{isWon === 1 ? <div> <b> 🟤 Congratulations!! You Won 🙂 </b> </div>: isWon === 2 ? <div> <b> 🟤 You Lose 😞. Please Try Again </b> </div> : ""}</div>
+                    <div className="result">{isWon === 1 ? <div> 🟤 Congratulations!! You Won 🙂 </div>: isWon === 2 ? <div> <b> 🟤 You Lose 😞. Please Try Again </b> </div> : ""}</div>
                 </div>
                 </div>
             </div>
