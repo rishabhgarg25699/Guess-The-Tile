@@ -3,6 +3,8 @@ It is an online game which is based on ReactJS. In this game, first you have to 
 
 Tools/Technologies: ReactJS, HTML, CSS, Javascript.
 
+Live Project: https://guess-number1.herokuapp.com/
+
 
 ## Steps to Run Locally :scroll:
 ```sh
