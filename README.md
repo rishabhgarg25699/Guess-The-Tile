@@ -15,7 +15,7 @@ Tools/Technologies: ReactJS, HTML, CSS, Javascript.
 ```
 
 ## Screenshots :crown:
-Desktop View             |  Mobile View
+Home View                |     Game View
 :-------------------------:|:-------------------------:
 ![](Photoes/Photo1.png)  |  ![](Photoes/Photo2.png)
 
