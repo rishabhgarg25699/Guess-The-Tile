@@ -45,11 +45,12 @@ const NumberSelect = () => {
                 <div className="rules">
                 <div className = "gameStyle">🔘 Game Started 🔘</div>
                 <div className = "subHeadingStyle">
-                    <div>  🟤 Your Choosen Number: {id} </div>
-                    <div>  🟤 You Have {3 - count.current} Left For Guesssing The Number </div>
-                    <div> 🟤 Want To Start New Game </div>
+                    <div>  🟤 Your Choosen Number: <div className="chances">{id}</div> </div>
+                    <div>  🟤 You Have <div className="chances"> {3 - count.current} </div>Chances Left For Guesssing The Number </div>
+                    <div> 🟤 Want To Start New Game  </div>
+                    <div>⬇️</div>
                     <Link to={{ pathname: `/`}}> 
-                        New Game 
+                        <div className="newGameStyle">New Game </div> 
                     </Link>
                     <div>{isWon === 1 ? <div> <b> 🟤 Congratulations!! You Won 🙂 </b> </div>: isWon === 2 ? <div> <b> 🟤 You Lose 😞. Please Try Again </b> </div> : ""}</div>
                 </div>

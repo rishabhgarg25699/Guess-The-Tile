@@ -22,10 +22,10 @@ const FrontPage = () => {
                     <p className = "subHeading">🔘 Rules of the Game 🔘</p>
                     <ol className = "list">
                         <li>You have to select a number between 1 to 9</li>
-                        <li>Then, there will be 9 tiles on next page</li>
+                        <li>There will be 9 tiles on next page</li>
                         <li>You have 3 chances to guess the number in the tile</li>
                         <li>If in the 3 chances you guess the number correct, you win the match</li>
-                        <li>Else you loss the number</li>
+                        <li>Else you loss the match</li>
                     </ol>
                 </div>
             </div>
